@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to the normalize.css -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- Link to the main.css -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>Dhaliwal Motorsports - Home</title>
+  <meta name="description" content="Dhaliwal Motorsports is your premier destination for high-octane racing action. We participate in top-tier races around the world, delivering exhilarating performances at every event. Stay up to date with our latest news, race schedules, and results.">
+  <meta name="keywords" content="Dhaliwal Motorsports, Motorsports, Racing, Top-tier races, Racing events, Motorsports news, Race schedules, Racing results">
+</head>
+<body>
+    <header>  
+        <img src="images/Screenshot 2023-07-26 155656.svg" alt="Dhaliwal Motorsports Logo">
+        <h1>Dhaliwal Motorsports</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    
+    <aside>
+        <h2>Upcoming Races</h2>
+        <ul>
+            <li>F1 Grand Prix, Monaco 1</li>
+            <li>24 Hours of Le Mans, France</li>
+            <li>Daytona 500, USA</li>
+        </ul>
+    </aside>
+    
+    <main>
+        <h2>Contact Us</h2>
+        <form autocomplete="on">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required autofocus>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+                <label for="employment-status">Employment Status:</label>
+                <select id="employment-status" name="employment-status" required>
+                    <option value="">Select Option</option>
+                    <option value="student">Student</option>
+                    <option value="full-time">Employed Full-time</option>
+                    <option value="part-time">Employed Part-time</option>
+                    <option value="retired">Retired</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>How did you hear about our site?</legend>
+                <input type="radio" id="social-media" name="source" value="social-media" required>
+                <label for="social-media">Social Media</label>
+                <input type="radio" id="friend" name="source" value="friend">
+                <label for="friend">Friend</label>
+                <input type="radio" id="search-engine" name="source" value="search-engine">
+                <label for="search-engine">Search Engine</label>
+                <input type="radio" id="other-source" name="source" value="other">
+                <label for="other-source">Other</label>
+            </fieldset>
+            <fieldset>
+                <legend>Tell Us what you think!</legend>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" placeholder="Write your comments here" required></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Submit</legend>
+                <input type="checkbox" id="not-robot" name="not-robot">
+                <label for="not-robot">I am not a robot.</label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Arshdeep Singh, 8848173</p>
+    </footer>
+
+</body>
+</html>
